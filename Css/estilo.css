@@ -1,0 +1,165 @@
+/*limpiando formataciones padron*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", helvetica, sans-serif;
+    background: hsl(267, 24%, 93%);
+}  
+
+/*
+**** Layout ****
+*/
+
+#area-principal{
+    
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+   
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;   
+    
+}
+
+
+#area-lateral{
+    width:240px;
+    float: right;
+    
+}
+
+.postagens{
+    padding: 20px;
+    margin-bottom: 20px; 
+    background: white;
+    
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.text-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+h3{
+    color: #565666;
+    background: #e0dddd;
+    padding: 5px;
+}
+.List{
+    list-style: none;
+    
+}
+    
+
+#rodape{
+    
+    clear: both;
+    text-align: center;
+    padding: 50px;
+    background: #031c2c;
+    margin-right: auto;
+    
+    
+}
+
+#area-cabecalho{
+    
+    padding: 25px;
+    text-align: center;	
+    background-image: url('fundo.jpg');
+    background-repeat: round;
+    border: 15px solid rgba(0, 0, 0, 0.5); 
+    
+}
+
+
+#area-menu{
+    padding: 15px;
+    
+    
+    
+}
+
+#area-logo{
+    padding: 20px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/*formatacion de menu*/
+#area-menu a:link, #area-menu a:visited{
+    color: #e5d3f1;
+    padding: 8px 12px;
+}
+
+#area-menu a:hover{
+    color: #473da5cc;
+    background: #b8b3b3;
+    text-decoration: none;
+    
+    
+}
+
+ a:link, a:visited{
+    color: #1900f7a2;
+    
+}
+
+ a:hover{
+    color: #886c20;
+    text-decoration:underline;
+ }
+
+
+/* formataciones generales*/
+
+h1{
+    color: #eee6e6;
+    font-size: 2.5em;
+    
+}
+
+h2{
+    color: #424649;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    
+}
+
+.blanco{
+    color:#e6e6e6;
+}
+.tec{
+    color:rgb(231, 165, 217);
+    
+}
+
+
+.data{
+    font-size: 0.8em;
+    border: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
